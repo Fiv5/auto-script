@@ -1,0 +1,12 @@
+{
+  "web-portal": {
+    "path": "/Users/wuzheqing/Documents/work/web-portal",
+    "shell": [
+      "npm run updateAll",
+      "git add .",
+      "git commit -m 'update'",
+      "git push origin",
+      "git push dice master_zoina_6:develop"
+    ]
+  }
+}
